@@ -1,0 +1,1 @@
+const burgerBtn=document.querySelector(".header-burger"),close=document.querySelector(".close"),opened=document.querySelector(".opened"),mobMenu=document.querySelector(".mob-menu");burgerBtn.addEventListener("click",function(){mobMenu.classList.add("opened")}),close.addEventListener("click",function(){mobMenu.classList.remove("opened")});
